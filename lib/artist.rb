@@ -32,7 +32,8 @@ class Artist
       new_artist = self.new(artist_name) #create a new unique artist
       new_artist.save
       new_artist
-end
+    end
   end
+
 
 end
