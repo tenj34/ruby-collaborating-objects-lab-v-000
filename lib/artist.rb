@@ -11,6 +11,4 @@ class Artist
     @songs << self
   end
 
-
-  end
 end
