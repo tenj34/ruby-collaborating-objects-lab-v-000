@@ -34,6 +34,4 @@ class Artist
       new_artist
     end
   end
-
-
 end
