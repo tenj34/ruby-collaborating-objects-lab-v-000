@@ -9,7 +9,7 @@ class Artist
 
   def save
    @@all << self #saves the artist name to the all array
- end
+  end
 
 
 
