@@ -10,7 +10,7 @@ class Song
     artist.add_song(self)
   end
 
-  def self.new_by_filename
+  def self.new_by_filename(file_name)
     #creating a new instance of itself
     song = file_name.split(" - ")[1]
     artist = file_name.split(" - ")[0]
