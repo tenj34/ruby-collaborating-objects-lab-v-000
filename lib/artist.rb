@@ -26,6 +26,14 @@ class Artist
 
     found_artist = self.all.find{|artist| artist.name == artist.name} # checking to see if the artists name are the some_filename assign result to found_artist
 
+    if found_artist
+      found_artist
+    else
+      new_artist = self.new(artist_name) #create a new unique artist
+      new_artist.save
+      new_artist
+
+
   end
 
 end
