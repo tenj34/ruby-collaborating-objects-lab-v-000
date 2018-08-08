@@ -33,4 +33,8 @@ class Artist
       new_artist
     end
   end
+
+  def print_songs
+
+  end
 end
